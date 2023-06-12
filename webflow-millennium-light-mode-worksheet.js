@@ -423,7 +423,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         // Global
         document
-          .querySelectorAll(".body")
+          .querySelectorAll("body")
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".button")
