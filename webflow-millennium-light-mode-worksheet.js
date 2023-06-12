@@ -28,7 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#sales-order-list-lottie-light-mode")
           .forEach((target) => target.classList.add("off"));
-        // Global
+        //
+        // GLOBAL
+        //
         document
           .querySelectorAll(".body")
           .forEach((target) => target.classList.add("off"));
@@ -68,7 +70,15 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".toggle_switch")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".page-header")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".container")
+          .forEach((target) => target.classList.add("off"));
+        //
         // Top Search Component
+        //
         document
           .querySelectorAll(".brand")
           .forEach((target) => target.classList.add("off"));
@@ -85,7 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".filter_button")
           .forEach((target) => target.classList.add("off"));
-        // Quotes Page: Buttons
+        //
+        // Buttons
+        //
         document
           .querySelectorAll("#button-bulk-select")
           .forEach((target) => target.classList.add("off"));
@@ -119,7 +131,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#new-sales-order-lottie-lightmode")
           .forEach((target) => target.classList.add("off"));
-        // Quotes Page: Table
+        //
+        // Table
+        //
         document
           .querySelectorAll(".table_item")
           .forEach((target) => target.classList.add("off"));
@@ -149,6 +163,15 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".table_cell-last-responsive")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".table_cell-status-select")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".table_cell-first")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".table_cell-responsive")
           .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".table_item-button-wrapper")
@@ -396,7 +419,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".part_item")
           .forEach((target) => target.classList.add("off"));
       } else {
+        //
         // Main Navigation: turn on dark mode
+        //
         document
           .querySelectorAll(".main-navigation")
           .forEach((target) => target.classList.remove("off"));
@@ -421,7 +446,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#sales-order-list-lottie-light-mode")
           .forEach((target) => target.classList.remove("off"));
+        //
         // Global
+        //
         document
           .querySelectorAll("body")
           .forEach((target) => target.classList.remove("off"));
@@ -461,7 +488,16 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".toggle_switch")
           .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".page-header")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".container")
+          .forEach((target) => target.classList.remove("off"));
+
+        //
         // Top Search Component
+        //
         document
           .querySelectorAll(".brand")
           .forEach((target) => target.classList.remove("off"));
@@ -512,7 +548,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#new-sales-order-lottie-lightmode")
           .forEach((target) => target.classList.remove("off"));
-        // Quotes Page: Table
+        //
+        // Table
+        //
         document
           .querySelectorAll(".table_item")
           .forEach((target) => target.classList.remove("off"));
@@ -542,6 +580,15 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".table_cell-last-responsive")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".table_cell-status-select")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".table_cell-first")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".table_cell-responsive")
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".table_item-button-wrapper")
