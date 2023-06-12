@@ -99,6 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
         // Buttons
         //
         document
+          .querySelectorAll(".button")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button-fill")
+          .forEach((target) => target.classList.add("off"));
+        document
           .querySelectorAll("#button-bulk-select")
           .forEach((target) => target.classList.add("off"));
         document
@@ -514,7 +520,15 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".filter_button")
           .forEach((target) => target.classList.remove("off"));
+        //
         // Quotes Page: Buttons
+        //
+        document
+          .querySelectorAll(".button")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button-fill")
+          .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll("#button-bulk-select")
           .forEach((target) => target.classList.remove("off"));
