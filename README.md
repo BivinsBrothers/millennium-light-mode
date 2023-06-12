@@ -3,7 +3,7 @@
 _building light mode functionality in the Millennium project using F'insweet's Class Adder: https://finsweet.com/class-adder_
 
 **the javascript file:**
-/webflow-millennium-light-mode-worksheet.js
+https://bivinsbrothers.github.io/millennium-light-mode/webflow-millennium-light-mode-worksheet.js
 
 **the main list:**
-/class-id-list.md
+https://bivinsbrothers.github.io/millennium-light-mode/class-id-list.md
