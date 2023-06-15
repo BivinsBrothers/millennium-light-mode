@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#sales-order-list-lottie-light-mode")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll("#settings-light-mode")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll("#settings-dark-mode")
+          .forEach((target) => target.classList.add("off"));
         //
         // GLOBAL
         //
@@ -503,6 +509,12 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".container")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll("#settings-light-mode")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll("#settings-dark-mode")
           .forEach((target) => target.classList.remove("off"));
 
         //
