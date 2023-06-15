@@ -434,6 +434,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".part_item")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".client-chosen")
+          .forEach((target) => target.classList.add("off"));
       } else {
         //
         // Main Navigation: turn on dark mode
@@ -867,6 +870,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".part_item")
+          .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".client-chosen")
           .forEach((target) => target.classList.remove("off"));
       }
     });
