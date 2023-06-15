@@ -95,6 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".filter_button")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".search_component")
+          .forEach((target) => target.classList.add("off"));
+        
         //
         // Buttons
         //
@@ -519,6 +523,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".filter_button")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".search_component")
           .forEach((target) => target.classList.remove("off"));
         //
         // Quotes Page: Buttons
