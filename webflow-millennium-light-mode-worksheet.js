@@ -38,6 +38,45 @@ document.addEventListener("DOMContentLoaded", () => {
         // GLOBAL
         //
         document
+          .querySelectorAll("#email-lottie-darkmode")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll("#email-lottie-lightmode")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".new-comment-indicator")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".logo_subsidiary-lightmode")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".logo_subsidiary-darkmode")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".filter_clear")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item_checkbox")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_checkbox-label")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_location-quantity")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_amt-other-quotes")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_checkbox-bg")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_input")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_text-area")
+          .forEach((target) => target.classList.add("off"));
+        document
           .querySelectorAll(".body")
           .forEach((target) => target.classList.add("off"));
         document
@@ -104,10 +143,43 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".search_component")
           .forEach((target) => target.classList.add("off"));
-        
+
         //
         // Buttons
         //
+        document
+          .querySelectorAll(".button_icon-tooltip")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button_table-dropdown")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-toggle")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-list")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-link")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button-fill_small")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".radio-button")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll("#button-status-active")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button-status_icon")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button-status_text")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button-status_dropdown")
+          .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".button")
           .forEach((target) => target.classList.add("off"));
@@ -472,6 +544,45 @@ document.addEventListener("DOMContentLoaded", () => {
         // Global
         //
         document
+          .querySelectorAll("#email-lottie-darkmode")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll("#email-lottie-lightmode")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".new-comment-indicator")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".logo_subsidiary-lightmode")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".logo_subsidiary-darkmode")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".filter_clear")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item_checkbox")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_checkbox-label")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_location-quantity")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_amt-other-quotes")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_checkbox-bg")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_input")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".item-peek_text-area")
+          .forEach((target) => target.classList.remove("off"));
+        document
           .querySelectorAll("body")
           .forEach((target) => target.classList.remove("off"));
         document
@@ -548,6 +659,39 @@ document.addEventListener("DOMContentLoaded", () => {
         //
         // Quotes Page: Buttons
         //
+        document
+          .querySelectorAll(".button_icon-tooltip")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button_table-dropdown")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-toggle")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-list")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button_table-dropdown-link")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button-fill_small")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".radio-button")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll("#button-status-active")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button-status_icon")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button-status_text")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".button-status_dropdown")
+          .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".button")
           .forEach((target) => target.classList.remove("off"));
@@ -874,10 +1018,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".part_item")
           .forEach((target) => target.classList.remove("off"));
-         document
+        document
           .querySelectorAll(".client-chosen")
           .forEach((target) => target.classList.remove("off"));
-         document
+        document
           .querySelectorAll(".quote-page-header")
           .forEach((target) => target.classList.remove("off"));
       }
