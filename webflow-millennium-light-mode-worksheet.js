@@ -76,7 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".item-peek_text-area")
           .forEach((target) => target.classList.add("off"));
-        document.body.forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".body")
+          .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".button")
           .forEach((target) => target.classList.add("off"));
@@ -580,7 +582,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".item-peek_text-area")
           .forEach((target) => target.classList.remove("off"));
-        document.body.forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".body")
+          .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".button")
           .forEach((target) => target.classList.remove("off"));
