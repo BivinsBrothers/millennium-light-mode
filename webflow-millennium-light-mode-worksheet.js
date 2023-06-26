@@ -530,6 +530,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".subsidiary-rondelle")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".item-peek_input-quantity")
+          .forEach((target) => target.classList.add("off"));
       } else {
         //
         // Main Navigation: turn on dark mode
@@ -1059,6 +1062,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
          document
           .querySelectorAll(".subsidiary-rondelle")
+          .forEach((target) => target.classList.remove("off"));
+          document
+          .querySelectorAll(".item-peek_input-quantity")
           .forEach((target) => target.classList.remove("off"));
         
       }
