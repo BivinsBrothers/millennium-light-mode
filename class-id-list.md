@@ -85,6 +85,13 @@
 - [x] #table-link-in-review
 - [x] #table-link-closed
 - [x] #table-link-lost
+- [x] .bulk-edit_container
+- [x] .table_item-button-wrapper
+
+## Swiper
+
+- [x] .swiper-slide-thumb-active
+- [x] .swiper-slide.is-inactive
 
 ## Create New Quote Page
 
