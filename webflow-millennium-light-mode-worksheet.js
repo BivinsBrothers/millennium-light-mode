@@ -456,6 +456,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".subtotal-table_item")
           .forEach((target) => target.classList.add("off"));
         document
+          .querySelectorAll(".subtotal_results-item")
+          .forEach((target) => target.classList.add("off"));
+        document
           .querySelectorAll(".show-history_list")
           .forEach((target) => target.classList.add("off"));
         document
@@ -987,6 +990,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".subtotal-table_item")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".subtotal_results-item")
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".show-history_list")
