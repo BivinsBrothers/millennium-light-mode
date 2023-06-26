@@ -527,6 +527,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".button_icon-text")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".subsidiary-rondelle")
+          .forEach((target) => target.classList.add("off"));
       } else {
         //
         // Main Navigation: turn on dark mode
@@ -1053,6 +1056,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
          document
           .querySelectorAll(".button_icon-text")
+          .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".subsidiary-rondelle")
           .forEach((target) => target.classList.remove("off"));
         
       }
