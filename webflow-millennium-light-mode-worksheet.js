@@ -291,6 +291,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#table-link-lost")
           .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll("#table-link-approved")
+          .forEach((target) => target.classList.add("off"));
         // Create New Quote Page
         document
           .querySelectorAll(".button-inactive")
@@ -477,6 +480,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".table_cell-header-checkbox")
           .forEach((target) => target.classList.add("off"));
         document
+          .querySelectorAll(".table_cell-header-last")
+          .forEach((target) => target.classList.add("off"));
+        document
           .querySelectorAll(".table_cell-last")
           .forEach((target) => target.classList.add("off"));
         document
@@ -511,6 +517,15 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".quote-page-header")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".spacer_table-header")
+          .forEach((target) => target.classList.add("off"));
+               document
+          .querySelectorAll(".hide-line-item_toggle-hidden")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".button_icon-text")
           .forEach((target) => target.classList.add("off"));
       } else {
         //
@@ -803,6 +818,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#table-link-lost")
           .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll("#table-link-approved")
+          .forEach((target) => target.classList.remove("off"));
         // Quotes Page: Create New Quote Page
         document
           .querySelectorAll(".button-inactive")
@@ -989,6 +1007,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".table_cell-header-checkbox")
           .forEach((target) => target.classList.remove("off"));
         document
+          .querySelectorAll(".table_cell-header-last")
+          .forEach((target) => target.classList.remove("off"));
+        document
           .querySelectorAll(".table_cell-last")
           .forEach((target) => target.classList.remove("off"));
         document
@@ -1024,6 +1045,16 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".quote-page-header")
           .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".spacer_table-header")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll(".hide-line-item_toggle-hidden")
+          .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".button_icon-text")
+          .forEach((target) => target.classList.remove("off"));
+        
       }
     });
   });
