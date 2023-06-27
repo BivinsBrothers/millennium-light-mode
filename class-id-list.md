@@ -85,6 +85,7 @@
 - [x] #table-link-in-review
 - [x] #table-link-closed
 - [x] #table-link-lost
+- [x] #table-link-approved
 - [x] .bulk-edit_container
 - [x] .table_item-button-wrapper
 

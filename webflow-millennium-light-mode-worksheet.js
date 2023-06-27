@@ -294,6 +294,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll("#table-link-lost")
           .forEach((target) => target.classList.add("off"));
         document
+          .querySelectorAll("#table-link-approved")
+          .forEach((target) => target.classList.add("off"));
+        document
           .querySelectorAll(".bulk-edit_container")
           .forEach((target) => target.classList.add("off"));
         document
@@ -844,6 +847,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll("#table-link-lost")
+          .forEach((target) => target.classList.remove("off"));
+        document
+          .querySelectorAll("#table-link-approved")
           .forEach((target) => target.classList.remove("off"));
         // Quotes Page: Create New Quote Page
         document
