@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".container")
           .forEach((target) => target.classList.add("off"));
         //
-        // Top Search Component
+        // Top Search Component =========================================
         //
         document
           .querySelectorAll(".brand")
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.add("off"));
 
         //
-        // Buttons
+        // BUTTONS =========================================
         //
         document
           .querySelectorAll(".button_icon-tooltip")
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll("#new-sales-order-lottie-lightmode")
           .forEach((target) => target.classList.add("off"));
         //
-        // TABLE ----------------------------------------
+        // TABLE ADD ----------------------------------------
         //
         document
           .querySelectorAll(".table_item")
@@ -301,6 +301,9 @@ document.addEventListener("DOMContentLoaded", () => {
           .forEach((target) => target.classList.add("off"));
         document
           .querySelectorAll(".table_item-button-wrapper")
+          .forEach((target) => target.classList.add("off"));
+        document
+          .querySelectorAll(".table_text")
           .forEach((target) => target.classList.add("off"));
         //
         // SWIPER ADD ----------------------------------------
@@ -702,7 +705,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .querySelectorAll(".search_component")
           .forEach((target) => target.classList.remove("off"));
         //
-        // Quotes Page: Buttons
+        // Quotes Page: Buttons =========================================
         //
         document
           .querySelectorAll(".button_icon-tooltip")
@@ -851,7 +854,12 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#table-link-approved")
           .forEach((target) => target.classList.remove("off"));
-        // Quotes Page: Create New Quote Page
+        document
+          .querySelectorAll(".table_text")
+          .forEach((target) => target.classList.remove("off"));
+        //
+        // QUOTES PAGE: CREATE NEW QUOTE PAGE REMOVE =========================================
+        //
         document
           .querySelectorAll(".button-inactive")
           .forEach((target) => target.classList.remove("off"));
