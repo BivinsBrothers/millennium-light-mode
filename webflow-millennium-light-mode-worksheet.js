@@ -803,7 +803,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".table_cell-header-last-responsive")
           .forEach((target) => target.classList.remove("off"));
-         document
+        document
           .querySelectorAll(".table_cell-header-last")
           .forEach((target) => target.classList.remove("off"));
         document
@@ -893,7 +893,12 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll("#add-item-nav")
           .forEach((target) => target.classList.remove("off"));
-        // Individual Quote Page
+        //
+        // INDIVIDUAL QUOTE PAGE
+        //
+        document
+          .querySelectorAll(".subtotal_results-item")
+          .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll(".heading_order-number")
           .forEach((target) => target.classList.remove("off"));
@@ -1083,9 +1088,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".quote-page-header")
           .forEach((target) => target.classList.remove("off"));
-         document
-          .querySelectorAll(".spacer_table-header")
-          .forEach((target) => target.classList.re("off"));
       }
     });
   });
