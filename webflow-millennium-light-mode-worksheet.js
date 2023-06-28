@@ -803,6 +803,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".table_cell-header-last-responsive")
           .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".table_cell-header-last")
+          .forEach((target) => target.classList.remove("off"));
         document
           .querySelectorAll("#owner-dropdown")
           .forEach((target) => target.classList.remove("off"));
@@ -1080,6 +1083,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document
           .querySelectorAll(".quote-page-header")
           .forEach((target) => target.classList.remove("off"));
+         document
+          .querySelectorAll(".spacer_table-header")
+          .forEach((target) => target.classList.re("off"));
       }
     });
   });
